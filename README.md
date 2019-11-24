@@ -33,7 +33,7 @@ public enum SnowEffectViewBuilder.SnowType {
 }
 ```
 
-![screenshot](./screenshot/screenshot.gif=250x)
+![screenshot](./screenshot/screenshot.gif)
 
 Merry Christmas ☃️☃️☃️☃️☃️☃️.
 
