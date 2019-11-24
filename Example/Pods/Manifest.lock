@@ -1,0 +1,16 @@
+PODS:
+  - SnowEffectViewBuilder (0.1.0)
+
+DEPENDENCIES:
+  - SnowEffectViewBuilder (from `../`)
+
+EXTERNAL SOURCES:
+  SnowEffectViewBuilder:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SnowEffectViewBuilder: acc06e40113615972071b4fc8a9ee3c9aea589c9
+
+PODFILE CHECKSUM: 58c2430223c474d2f4fb91a5ae0d163f21d9a754
+
+COCOAPODS: 1.7.5
