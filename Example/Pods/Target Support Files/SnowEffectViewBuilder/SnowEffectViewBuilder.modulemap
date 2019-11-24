@@ -1,6 +1,0 @@
-framework module SnowEffectViewBuilder {
-  umbrella header "SnowEffectViewBuilder-umbrella.h"
-
-  export *
-  module * { export * }
-}

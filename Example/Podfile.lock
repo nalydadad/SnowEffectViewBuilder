@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SnowEffectViewBuilder: acc06e40113615972071b4fc8a9ee3c9aea589c9
+  SnowEffectViewBuilder: eb8e40d347ebcc3a15005695a39e5e9367dce2f4
 
 PODFILE CHECKSUM: 58c2430223c474d2f4fb91a5ae0d163f21d9a754
 
