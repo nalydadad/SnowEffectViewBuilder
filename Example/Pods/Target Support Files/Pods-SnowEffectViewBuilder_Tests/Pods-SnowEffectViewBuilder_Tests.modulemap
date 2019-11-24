@@ -1,0 +1,6 @@
+framework module Pods_SnowEffectViewBuilder_Tests {
+  umbrella header "Pods-SnowEffectViewBuilder_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
