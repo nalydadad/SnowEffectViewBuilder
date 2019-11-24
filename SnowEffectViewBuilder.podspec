@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 This CocoaPod helps to seup CAEmitterLayer to implement the snow effect.
                        DESC
 
-  s.homepage         = 'https://github.com/DADA/SnowEffectViewBuilder'
+  s.homepage         = 'https://github.com/nalydadad/SnowEffectViewBuilder'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'DADA' => 'nalydadad@gmail.com' }
-  s.source           = { :git => 'https://github.com/DADA/SnowEffectViewBuilder.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nalydadad/SnowEffectViewBuilder.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
