@@ -15,7 +15,7 @@
 		CA90DAB170D6A8B70526A2E253E33A53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		D5C671B26A53D55A372EFA16A080161F /* SnowEffectViewBuilder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3433826B7490AD3CC53A61B59FCC2989 /* SnowEffectViewBuilder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4CE73346F14092948B385AB0457C9C1 /* SnowEffectViewBuilder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D0C16D83A2ED166C73DFE9D43006ED /* SnowEffectViewBuilder-dummy.m */; };
-		F67537408873E04C5DFC26A9302FDF99 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C69231A53EF8000C3A768B4F9E648 /* ReplaceMe.swift */; };
+		F67537408873E04C5DFC26A9302FDF99 /* SnowEffectViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5C69231A53EF8000C3A768B4F9E648 /* SnowEffectViewBuilder.swift */; };
 		F9AAD18E7E7AACC12E2430CCF5F92A90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,13 +38,13 @@
 
 /* Begin PBXFileReference section */
 		051B99BBA7B3F83A7A92C4CAD32C21E7 /* Pods-SnowEffectViewBuilder_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnowEffectViewBuilder_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		0F5C69231A53EF8000C3A768B4F9E648 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SnowEffectViewBuilder/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		0F5C69231A53EF8000C3A768B4F9E648 /* SnowEffectViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnowEffectViewBuilder.swift; path = SnowEffectViewBuilder/Classes/SnowEffectViewBuilder.swift; sourceTree = "<group>"; };
 		169C8533F460AE4A16B2E14137E16314 /* Pods-SnowEffectViewBuilder_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SnowEffectViewBuilder_Example-frameworks.sh"; sourceTree = "<group>"; };
 		18C67BA71695A052C2BA9C484C6544EA /* Pods-SnowEffectViewBuilder_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnowEffectViewBuilder_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1A9CB96EC09AD08A6E83E32B2668B328 /* Pods-SnowEffectViewBuilder_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnowEffectViewBuilder_Example.release.xcconfig"; sourceTree = "<group>"; };
 		241727C9444DA4883E0C4A90108AC453 /* Pods-SnowEffectViewBuilder_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnowEffectViewBuilder_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		276C9D7618DBE5CABEAC3C3CACC8EF0B /* Pods_SnowEffectViewBuilder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnowEffectViewBuilder_Example.framework; path = "Pods-SnowEffectViewBuilder_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B20AF05249CA60DC517DD87AE7FA52B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		276C9D7618DBE5CABEAC3C3CACC8EF0B /* Pods_SnowEffectViewBuilder_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnowEffectViewBuilder_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B20AF05249CA60DC517DD87AE7FA52B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2F0B5A821BC24109F2C23712F8855BD3 /* Pods-SnowEffectViewBuilder_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SnowEffectViewBuilder_Example-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3433826B7490AD3CC53A61B59FCC2989 /* SnowEffectViewBuilder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnowEffectViewBuilder-umbrella.h"; sourceTree = "<group>"; };
@@ -53,9 +53,9 @@
 		6475CEA64B46A81683A143046954BE40 /* Pods-SnowEffectViewBuilder_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnowEffectViewBuilder_Tests-dummy.m"; sourceTree = "<group>"; };
 		693A15BAF03999312BA5AEDAA27FA6B4 /* Pods-SnowEffectViewBuilder_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnowEffectViewBuilder_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82D0C16D83A2ED166C73DFE9D43006ED /* SnowEffectViewBuilder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnowEffectViewBuilder-dummy.m"; sourceTree = "<group>"; };
-		89165631CBFC8257902B44C1429B2A95 /* SnowEffectViewBuilder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SnowEffectViewBuilder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89165631CBFC8257902B44C1429B2A95 /* SnowEffectViewBuilder.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SnowEffectViewBuilder.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93802C25CACF6BCB8D0926CCED982847 /* Pods-SnowEffectViewBuilder_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnowEffectViewBuilder_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD253AE2EE77952EEA94AB5C6AF86D94 /* Pods-SnowEffectViewBuilder_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnowEffectViewBuilder_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AF1C2A42228E01EF7A046CACF9AE69DB /* Pods-SnowEffectViewBuilder_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SnowEffectViewBuilder_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B203AD82E299628429CD43CAD961E064 /* Pods-SnowEffectViewBuilder_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SnowEffectViewBuilder_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,12 +63,12 @@
 		C444E72623307B2E59FB7C212A39A739 /* SnowEffectViewBuilder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnowEffectViewBuilder-Info.plist"; sourceTree = "<group>"; };
 		C7B7CD4511DFB408E37A667C5AAD56DC /* Pods-SnowEffectViewBuilder_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SnowEffectViewBuilder_Tests-umbrella.h"; sourceTree = "<group>"; };
 		D0FDAAF6D93C7EE43DC1A447CF9399AF /* Pods-SnowEffectViewBuilder_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SnowEffectViewBuilder_Example-dummy.m"; sourceTree = "<group>"; };
-		D4ADF41ECCF70824FED6D075144C835C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D4ADF41ECCF70824FED6D075144C835C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D560950D23C696C4045194C2BE8C86C3 /* Pods-SnowEffectViewBuilder_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SnowEffectViewBuilder_Example.modulemap"; sourceTree = "<group>"; };
-		D721F2AE57BF14B38CDE180A00BBAD92 /* SnowEffectViewBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnowEffectViewBuilder.framework; path = SnowEffectViewBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D721F2AE57BF14B38CDE180A00BBAD92 /* SnowEffectViewBuilder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnowEffectViewBuilder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E5EC17EE98A4488D6D64AC63F0BF2C /* Pods-SnowEffectViewBuilder_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SnowEffectViewBuilder_Tests.modulemap"; sourceTree = "<group>"; };
 		EDE5C882B7CD571C22A883B004F8BE88 /* SnowEffectViewBuilder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnowEffectViewBuilder.modulemap; sourceTree = "<group>"; };
-		F7ED9F1EBDE6CEFC18D5840A2B42243E /* Pods_SnowEffectViewBuilder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SnowEffectViewBuilder_Tests.framework; path = "Pods-SnowEffectViewBuilder_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ED9F1EBDE6CEFC18D5840A2B42243E /* Pods_SnowEffectViewBuilder_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnowEffectViewBuilder_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,7 +162,7 @@
 		5D034B6AAE7974134EB3047D47151974 /* SnowEffectViewBuilder */ = {
 			isa = PBXGroup;
 			children = (
-				0F5C69231A53EF8000C3A768B4F9E648 /* ReplaceMe.swift */,
+				0F5C69231A53EF8000C3A768B4F9E648 /* SnowEffectViewBuilder.swift */,
 				59D0E7648EACBD3D05F49B5947DE88C5 /* Pod */,
 				54B9E886A4E709AEADA22F9B2F82B2E7 /* Support Files */,
 			);
@@ -380,7 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F67537408873E04C5DFC26A9302FDF99 /* ReplaceMe.swift in Sources */,
+				F67537408873E04C5DFC26A9302FDF99 /* SnowEffectViewBuilder.swift in Sources */,
 				E4CE73346F14092948B385AB0457C9C1 /* SnowEffectViewBuilder-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

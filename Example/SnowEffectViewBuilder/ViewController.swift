@@ -7,18 +7,32 @@
 //
 
 import UIKit
+import SnowEffectViewBuilder
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+	private let toggle = UISwitch()
+	
+	override func viewDidLoad() {
+		setupToggle()
+		let emitter = SnowEffectViewBuilder.createLayer(
+			type: .circle(size: CGSize(width: 1.0, height: 1.0), color: UIColor(white: 0.85, alpha: 1.0)),
+			size: self.view.bounds.size)
+		self.view.layer.addSublayer(emitter)
+	}
+	
+	private func setupToggle() {
+		self.view.addSubview(toggle)
+		self.toggle.addTarget(self, action: #selector(setupSnowEffect(sender:)), for: .valueChanged)
+		self.toggle.translatesAutoresizingMaskIntoConstraints = false
+		NSLayoutConstraint.activate([
+			toggle.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 0),
+			toggle.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -30)])
+	}
+	
+	@objc func setupSnowEffect(sender: UISwitch) {
+		UIView.animate(withDuration: 0.4) {
+			self.view.backgroundColor = sender.isOn ? UIColor.black : UIColor.white
+		}
+	}
 }
 
