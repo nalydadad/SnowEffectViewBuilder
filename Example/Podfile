@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SnowEffectViewBuilder_Example' do
+  pod 'SnowEffectViewBuilder', :path => '../'
+
+  target 'SnowEffectViewBuilder_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
